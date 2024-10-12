@@ -24,9 +24,9 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/hindimehaisab')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', https://t.me/hindimehaisab'').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rajatkarkade199:HPkSY7sClLNNhmAj@cluster0.dzbcc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-DATABASE_NAME = environ.get('cluster0', "TELEGRAM_BOT_INFO")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '1002271995508'))
+DATABASE_NAME = environ.get('LHDMOVIES', "TELEGRAM_BOT_INFO")
+COLLECTION_NAME = environ.get('LHDMOVIES', 'Telegram_files')
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002489966815'))
 QR_CODE = environ.get('QR_CODE', 'false')
 START_IMG = environ.get('START_IMG', '')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL',''))
@@ -53,7 +53,7 @@ YEARS = [f'{i}' for i in range(2024 , 2002,-1 )]
 SEASONS = [f'season {i}'for i in range (1 , 23)]
 REF_PREMIUM = 30
 PREMIUM_POINT = 1500
-auth_channel = environ.get('AUTH_CHANNEL', '1002187944102')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002274772743')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-100'))
 request_channel = environ.get('REQUEST_CHANNEL', '-100')
